@@ -1,10 +1,10 @@
-package com.group.libraryapp.domain.user.loadhistory
+package com.group.libraryapp.domain.user.loanhistory
 
 import com.group.libraryapp.domain.user.User
 import javax.persistence.*
 
 @Entity
-class UserLoanHistory(
+class UserLoanHistory constructor(
     @ManyToOne
     val user: User,
 

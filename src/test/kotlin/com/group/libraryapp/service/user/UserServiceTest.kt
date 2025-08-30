@@ -16,7 +16,6 @@ import org.springframework.boot.test.context.SpringBootTest
 class UserServiceTest @Autowired constructor(
     private val userRepository: UserRepository,
     private val userService: UserService,
-    service: UserService
 ) {
 
     @AfterEach
